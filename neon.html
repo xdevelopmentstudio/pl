@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TheRevQ</title>
+    <link href="https://fonts.googleapis.com/css?family=Monda:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://xanax.pro/p5kHGNgc.png" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            font-family: 'Monda', sans-serif;
+        }
+
+        li {
+            color: yellow;
+            display: inline-block;
+            font-size: 100px;
+            font-family: 'Monda', sans-serif;
+            font-weight: bold;
+            letter-spacing: 5px;
+            text-shadow: 0 0 30px white, 0 0 10px yellow;
+            transition: opacity 2s;
+           
+        }
+        li:nth-child(7) {
+            transform: rotate(15deg) translateY(4px);
+            animation: neon 2s infinite;
+        }
+
+        li:nth-child(7).off {
+          opacity: 0;
+        }
+
+    
+
+
+        .off {
+            opacity: 0;
+            text-shadow: none;
+        }
+        @keyframes neon {
+            0% {
+                opacity: 0;
+            }
+
+       
+            100% {
+                opacity: 1;
+        
+                }
+        }
+
+        ul {
+            margin: auto;
+        }
+
+        button {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+        }
+        h1 {
+            color: white;
+            font-weight: normal;
+            font
+        }
+        
+
+            </style>
+</head>
+<body>
+<ul>
+    <li>T</li>
+    <li>H</li>
+    <li>E</li>
+    <li>R</li>
+    <li>E</li>
+    <li>V</li>
+    <li>Q</li>
+</ul>    
+<script>
+var button = document.querySelector("button");
+
+button.addEventListener("click", function()
+{
+
+
+})
+
+</script>
+</body>
+</html>
